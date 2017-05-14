@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestMyAmaysim]">
+  <test name="MyAmaysim(failed)">
+    <classes>
+      <class name="testCases.SettingsPageTestCases">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+          <include name="editSimName"/>
+        </methods>
+      </class> <!-- testCases.SettingsPageTestCases -->
+    </classes>
+  </test> <!-- MyAmaysim(failed) -->
+</suite> <!-- Failed suite [TestMyAmaysim] -->
